@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D61C78C82120C129004D4B42 /* RSSParserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61C78C72120C129004D4B42 /* RSSParserDelegate.swift */; };
 		D68FA2D72119F281009DE806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA2D62119F281009DE806 /* AppDelegate.swift */; };
 		D68FA2D92119F281009DE806 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA2D82119F281009DE806 /* ViewController.swift */; };
 		D68FA2DC2119F281009DE806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68FA2DA2119F281009DE806 /* Main.storyboard */; };
 		D68FA2DE2119F281009DE806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68FA2DD2119F281009DE806 /* Assets.xcassets */; };
 		D68FA2E12119F281009DE806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68FA2DF2119F281009DE806 /* LaunchScreen.storyboard */; };
+		D68FA2E92119F75F009DE806 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA2E82119F75F009DE806 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D61C78C72120C129004D4B42 /* RSSParserDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSParserDelegate.swift; sourceTree = "<group>"; };
 		D68FA2D32119F281009DE806 /* RSSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68FA2D62119F281009DE806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D68FA2D82119F281009DE806 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		D68FA2DD2119F281009DE806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D68FA2E02119F281009DE806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D68FA2E22119F281009DE806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68FA2E82119F75F009DE806 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				D68FA2D62119F281009DE806 /* AppDelegate.swift */,
 				D68FA2D82119F281009DE806 /* ViewController.swift */,
 				D68FA2DA2119F281009DE806 /* Main.storyboard */,
+				D68FA2E82119F75F009DE806 /* WebViewController.swift */,
 				D68FA2DD2119F281009DE806 /* Assets.xcassets */,
 				D68FA2DF2119F281009DE806 /* LaunchScreen.storyboard */,
 				D68FA2E22119F281009DE806 /* Info.plist */,
+				D61C78C72120C129004D4B42 /* RSSParserDelegate.swift */,
 			);
 			path = RSSReader;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D68FA2D92119F281009DE806 /* ViewController.swift in Sources */,
+				D68FA2E92119F75F009DE806 /* WebViewController.swift in Sources */,
+				D61C78C82120C129004D4B42 /* RSSParserDelegate.swift in Sources */,
 				D68FA2D72119F281009DE806 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
